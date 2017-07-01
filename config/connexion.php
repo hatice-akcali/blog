@@ -2,14 +2,14 @@
 
 $host = "localhost";
 $user ="root";
-$mdp = null;	//Si vous êtes sur Linux ou mac mettre "roor" en mot de passe
-$projet3 = "projet3";
+$mdp = null;	//Si vous êtes sur Linux ou mac mettre "root" en mot de passe
+$name = "projet3";
 
 
 // Connexion à bdd
 try
 {
-	$bdd = new PDO("mysql:host=$host;dbname=$projet3;charset=utf8", $user, $mdp);
+	$bdd = new PDO("mysql:host=$host;dbname=$name;charset=utf8", $user, $mdp);
 	$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$bdd->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
 	//echo "Connexion  ok hé hé!";
