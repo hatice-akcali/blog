@@ -17,10 +17,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="footer-copyright" style="font-familly: Minecraftia: font-weight: 300;color: white;">
+				<div class="footer-copyright" style="font-familly: Minecraftia: font-weight: 300;color: white;text-align:center;">
 					
-					<a href="https://github.com/hatice-akcali/blog.git">Github</a> // <a href="fconnexion.php">Administration</a>
-					<p>Copyright moi - OpenClassrooms 2017, tous droits réservés</p>						
+					<a href="fconnexion.php">Administration</a>
+					<p>Copyright moi - OpenClassrooms 2017, tous droits réservés</p>
+										
 				</div>				
 			</div>			
 		</div>		
