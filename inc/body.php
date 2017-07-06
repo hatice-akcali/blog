@@ -11,10 +11,12 @@
  $requete=$bdd->query('SELECT id_bil, nom, prenom, titre, contenu, DATE_FORMAT(date, \'%d/%m/%Y à %Hh%i\') AS date_creation_fr 
  FROM billet AS a, auteur AS b WHERE a.id_aut = b.id_aut ORDER BY date DESC LIMIT 0,5');
 
+
  
 
 
  //SELECT * FROM news AS n, auteur AS a WHERE n.id_auteur = a.id_auteur AND nom="DUPONT" AND prenom="Marchel"
+ //string date ( string $format [, int $timestamp = time() ] )
 
 
  //var_dump($bdd);
@@ -48,4 +50,6 @@
 
 
    </section>
+
+
    </div>
