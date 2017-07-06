@@ -47,9 +47,15 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="#">Accueil</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
+
+           <ul class="nav navbar-nav pull-right" >
+            <li><a href="#">Créer un billet</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+
+          
+
         </div><!--/.nav-collapse -->
       </div>
     </nav>

@@ -10,4 +10,23 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
+
+
+
+<div class="footer" style="background-color: #222;">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer-copyright" style="font-familly: Minecraftia: font-weight: 300;color: white;text-align:center;">
+					
+					<a href="fconnexion.php">Administration</a>
+					<p>Copyright moi - OpenClassrooms 2017, tous droits réservés</p>
+										
+				</div>				
+			</div>			
+		</div>		
+	</div>	
+</div>
+
+
 </html>
